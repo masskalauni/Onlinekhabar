@@ -1,0 +1,53 @@
+/* Style the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* background: linear-gradient(135deg, #0073e6, #00a8e8); Use your preferred background gradient */
+}
+
+/* Style the 404 container */
+.container_404 {
+    text-align: center;
+    padding: 25px;
+    /* background-color: #fff; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+    color: #333; /* Set your text color */
+    margin:15px;
+}
+
+/* Style the main title */
+.container_404 p {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0073e6; /* Set your text color */
+}
+
+/* Style the description text */
+.container_404 small {
+    font-size: 18px;
+    color: #555; /* Set your text color */
+    margin-bottom: 10px;
+}
+
+/* Add a stylish "Return to Homepage" button */
+.container_404 .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6; /* Set your button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.container_404 .button:hover {
+    background-color: #005ab1; /* Change button color on hover */
+}
+
+/* Add padding and margins as needed */

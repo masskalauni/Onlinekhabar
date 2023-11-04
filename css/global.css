@@ -1,0 +1,223 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   color: #444;
+   background: #fff;
+   font-family:'Mukta', sans-serif;
+}
+.sticky_top .navbar .flex-container .list_items ul li a{
+    text-decoration: none;
+}
+a[href=""]{
+   text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+   border:none;
+}
+h3 a {
+   text-decoration: none;
+}
+p a {
+   text-decoration: none;
+}
+
+:root{
+   font-size: 16px;
+
+  --primary-color:#2260bf;
+  --primary-light-color:#1e73c9;
+  --primary-light2-color:#3d92eb;
+  --primary-light3-color:#c6dbfa;
+  --primary-dark-color:#054280;
+  --primary-dark2-color:#033161;
+  --sidebar-background-color:#f4f6f8;
+  --secondry-color:#e11b22;
+  --secondry-light-color:#f73138;
+  --secondry-light2-color:#ff575d;
+  --secondry-dark-color:#b8040a;
+  --secondry-dark2-color:#8a0a0e;
+
+  --optional-color:#de9f21;
+  --optional-light-color:#f5b536;
+  --optional-light2-color:#fcc453;
+  --optional-dark-color:#c48608;
+  --optional-dark2-color:#9c6903;
+}
+.topborder{
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.SectionleftTorightMargin{
+   margin-left:60px;
+}
+.SectionTopBottomMargin{
+   margin-top: 60px;
+}
+
+
+
+
+/* Style the comment form container */
+#respond {
+   background-color: #f9f9f9;
+   padding: 20px;
+   border: 1px solid #ccc;
+   margin-top: 20px;
+ }
+ 
+ /* Style the comment form title */
+ .comment-reply-title {
+   font-size: 24px;
+   margin: 0;
+   padding-bottom: 15px;
+   border-bottom: 1px solid #ccc;
+   /* text-align: center; */
+ }
+ p{
+   /* text-align: center; */
+ }
+ 
+ /* Style the "Leave a Reply" text */
+ .comment-reply-title small {
+   font-size: 14px;
+ }
+ 
+ /* Style the comment input field */
+ .comment-form-comment {
+   margin-bottom: 20px;
+ }
+ 
+ /* Style the comment label */
+ .comment-form-comment label {
+   font-weight: bold;
+ }
+ 
+ /* Style the comment textarea */
+ .comment-form-comment textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ /* Style the submit button */
+ .form-submit .submit {
+   background-color: #0073e6;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ /* Style the required field message */
+ .required-field-message {
+   color: #f00;
+   font-weight: bold;
+ }
+ 
+ /* Style the "Cancel reply" link */
+ #cancel-comment-reply-link {
+   color: #0073e6;
+   text-decoration: none;
+ }
+ 
+ /* Additional styles as needed */
+ 
+ /* Add any other custom styles you require */
+ 
+
+
+
+ul li a{
+  text-decoration: none;
+}
+ul li 
+{
+  list-style: none;
+}
+#sidebar li {
+  list-style: none;
+}
+
+.edit-link {
+  text-align:center;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+/* Define a class for the category text */
+.category-list a{
+  color: #000; /* Black color */
+  text-decoration: none;
+}
+
+
+/* pagination */
+.pagination{
+  padding:8px;
+  
+  font-weight:bold;
+}
+
+.pagination a{
+  /* border-top: 3px solid white;
+  display: inline-block;
+  padding:16px 16px;
+  transition:0.4s;
+  text-decoration: none; */
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+margin-left: 20px;
+}
+.pagination .current{
+  margin-left:20px;
+  
+ 
+}
+.pagination .prev{
+  color:black;
+}
+.pagination .next{
+  color:black;
+}
+.pagination .page-numbers{
+  color:black;
+}
+.pagination .current{
+  color:blue;
+}
+
+.pagination a:hover{
+  text-decoration: none;
+  border-top:2px solid black;
+}
+
+
+.highlighted {
+  text-decoration: solid yellow 3px underline;
+  font-weight: bold; /* Make the highlighted text bold */
+}
+
+
+
+
+
+
+
+
+
