@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   color: #444;
+   background: #fff;
+   font-family:'Mukta', sans-serif;
+}
+a[href=""]{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+:root{
+   font-size: 16px;
+
+  --primary-color:#2260bf;
+  --primary-light-color:#1e73c9;
+  --primary-light2-color:#3d92eb;
+  --primary-light3-color:#c6dbfa;
+  --primary-dark-color:#054280;
+  --primary-dark2-color:#033161;
+  --sidebar-background-color:#f4f6f8;
+  --secondry-color:#e11b22;
+  --secondry-light-color:#f73138;
+  --secondry-light2-color:#ff575d;
+  --secondry-dark-color:#b8040a;
+  --secondry-dark2-color:#8a0a0e;
+
+  --optional-color:#de9f21;
+  --optional-light-color:#f5b536;
+  --optional-light2-color:#fcc453;
+  --optional-dark-color:#c48608;
+  --optional-dark2-color:#9c6903;
+}
+.topborder{
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.SectionleftTorightMargin{
+   margin-left:60px;
+}
+.SectionTopBottomMargin{
+   margin-top: 60px;
+}
